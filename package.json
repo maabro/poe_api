@@ -1,0 +1,25 @@
+{
+  "name": "poe-api",
+  "version": "1.0.0",
+  "description": "Apliación web para consumir la API de Path of Exile",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maabro/poe_api.git"
+  },
+  "author": "maabro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maabro/poe_api/issues"
+  },
+  "homepage": "https://github.com/maabro/poe_api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
